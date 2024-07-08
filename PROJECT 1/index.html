@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+</head>
+<body>
+    <header>
+        <button class="button" data-text="Awesome">
+            <span class="actual-text">&nbsp;toys.hd&nbsp;</span>
+            <span aria-hidden="true" class="hover-text">&nbsp;toys.hd&nbsp;</span>
+        </button>
+        <div class="bx-menu" id="menu-icon"></div>
+        <nav>
+            <ul class="navbar">
+                <button><a href="#home">Home</a></button>
+                <button><a href="#about">About</a></button>
+                <button><a href="#menu">Menu</a></button>
+                <button><a href="#service">Service</a></button>
+                <button><a href="#contact">Contact</a></button>
+            </ul>
+        </nav>
+    </header>
+<!------home--section-->
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>KID'S TOYS</h1>
+            <h3>Toys: The Most Joyful Gift</h3>
+            <button class="btn"> <a href="#menu">Hot Seller</a></button>
+        </div>
+        <div class="home-img">
+            <img src="img/thumbnail.png.png" alt="Toys" class="slide-in-image">
+        </div>
+    </section>
+<!----about---section-->
+<section class="about" id="about">
+    <div class="about-img">
+        <img src="img/about-img.png" alt="Remote Car">
+    </div>
+    <div class="about-text">
+        <span>About Us</span>
+        <h2>We Speak the Language of Good Toys</h2>
+        <p>Our toy shop offers a vibrant array of carefully chosen toys that inspire creativity and joy. Our knowledgeable staff ensures every purchase meets our high standards of quality and excellence.</p>
+        <button class="btn"><a href="#service">Learn More</a></button>
+    </div>
+</section>
+<!---menu--section-->
+<section class="menu" id="menu">
+    <div class="heading">
+        <span>Toy's Menu</span>
+        <h2>Long-lasting and Great Prices</h2>
+    </div>
+    <div class="container">
+        <header>
+            <h1>Cart</h1>
+            <div class="shopping">
+                <i class='bx bxs-cart-alt'></i>
+                <span class="quantity">0</span>
+            </div>
+        </header>
+        <div class="list"></div>
+    </div>
+    <div class="card">
+        <h1>Cart</h1>
+        <ul class="listCard"></ul>
+        <div class="checkOut">
+            <div class="total">0</div>
+            <div class="closeShopping">Close</div>
+        </div>
+    </div>
+</section>
+
+<!---service--section-->
+<section class="services" id="service">
+    <div class="heading">
+        <span>Services</span>
+        <h2>We provide high quality ex-UK toys</h2>
+    </div>
+
+    <div class="service-container">
+        <div class="s-box">
+            <img src="img/order-image.png">
+            <h3>Order</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ex delectus numquam quia ab! Saepe reprehenderit expedita aliquid nostrum tempore alias quas ratione facilis iure. Nobis earum velit officia corporis?</p>
+        </div>
+        <div class="s-box">
+            <img src="img/shipping-icon.png">
+            <h3>Shipping</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ex delectus numquam quia ab! Saepe reprehenderit expedita aliquid nostrum tempore alias quas ratione facilis iure. Nobis earum velit officia corporis?</p>
+        </div>
+        <div class="s-box">
+            <img src="img/delivery-truck.png">
+            <h3>Delivery</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Voluptate ex delectus numquam quia ab! Saepe reprehenderit expedita aliquid nostrum tempore alias quas ratione facilis iure. Nobis earum velit officia corporis?</p>
+        </div>
+    </div>
+</section>
+<!---CONTACT SECTION-->
+<section class="cta">
+    <h2>We sell ex-UK good quality toys <br> Everyday</h2>
+    <button><a href="https://wa.me/0723567858" target="_blank">Lets Talk</a></button>
+</section>
+
+<section id="contact">
+    <div class="footer">
+        <div class="main">
+            <div class="col">
+                <h4>Menu Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Menu</a></li>
+                    <li><a href="#">Services</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Our Services</h4>
+                <ul>
+                    <li><a href="#">We sell ex-UK toys</a></li>
+                    <li><a href="#">Counselling services</a></li>
+                    <li><a href="#">Kid's sweat pants</a></li>
+                    <li><a href="#">Hats</a></li>
+                    <li><a href="#">Repairing toys</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Information</h4>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">Delivery Information</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Terms & Conditions</a></li>
+                </ul>
+            </div>
+            <div class="col">
+                <h4>Contact Us</h4>
+                <div class="social">
+                    <a href="#"><i class='bx bxl-facebook-circle'></i></a>
+                    <a href="#"><i class='bx bxl-instagram'></i></a>
+                    <a href="#"><i class='bx bxl-pinterest'></i></a>
+                    <a href="#"><i class='bx bxl-twitter'></i></a>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+    
+
+
+    <script src="script.js"></script>
+</body>
+</html>
